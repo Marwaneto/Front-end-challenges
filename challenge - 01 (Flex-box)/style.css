@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #202020;
+}
+
+.container {
+    display: flex;
+    border: 3px solid red;
+}
+
+div div {
+    width: 30px ;
+    text-align: center;
+    padding: 50px;
+    background: black;
+    margin: 10px;
+    color: green;
+    font-size: 2rem;
+}
+
+.child1 {
+    flex-grow: 1;
+    order: 2;
+}
+
+.child2 {
+    flex-basis: content;
+    order: 1;
+}
+
+.child3 {
+    order: 3;
+}
